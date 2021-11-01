@@ -7,7 +7,7 @@ CORONAvirus annoTATOR, version 1.0.0
 the bam file used for analysis should be sorted, and put in the directory in 'input' in form as 'input/PRJ_NAME/SAMPLE_NAME/align.out.sorted.bam'
 
 2. edit Metadata.csv
-fullfill sample info of the sample to be run in 'bin/Metadata.csv'. This is an example:
+fullfill the table containing sample info, in 'bin/Metadata.csv'. This is an example:
 PRJTEST0001,SAMPTEST01,SAMPTEST01,,,,RNA-Seq,,,PAIRED,ILLUMINA,SARS2,in vivo,
 
 The header of this table is 'PRJ,SRX,SRR,Spots,Bases,Average_spot_length,Assay,Selection,Library_source,Layout,Platform,Virus,in vivo/in vitro,Center_name'
