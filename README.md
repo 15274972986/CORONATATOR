@@ -18,6 +18,6 @@ cd bin/
 bash Wrapper.sh PRJ_NAME
 
 ## 4. field of output files (use files in 'output/PRJTEST0001/SAMPTEST01/' as example)
-1. BPcalled： raw output of breakpoint identification procedure.
+BPcalled： raw output of breakpoint identification procedure.
 fields: read_id, is_forward, is_reverse, is_supplementary_alignment, mapping_start, CIGAR, CIGAR_summary, breakpoint_position, breakpoint_position_of_mate, context_of_breakpoint
-2. 
+ 
