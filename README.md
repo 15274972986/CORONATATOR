@@ -30,6 +30,6 @@ SARS2.nc.sg: non-canonical sgRNA called, final outputs \
 SGRNAcalled_noncanonical: non-canonical sgRNA read info, intermediate output, unfiltered. \
 (read_id, strand, breakpoint1, breakpoint2, context_of_breakpoint, CIGAR_summary) \
 \
-
+consensus.fasta: a genome modified from reference, with mutated position changed acoording to sample.
 
  
