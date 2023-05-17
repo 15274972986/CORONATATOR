@@ -1,8 +1,7 @@
-CORONATATOR
+# CORONATATOR
 CORONAvirus annoTATOR, version 1.0.0
-#####
 
-#Brief tool guide of CORONATATOR
+# Brief tool guide of CORONATATOR
 ## 1. prepare *.bam file:
 the bam file used for analysis should be sorted, and put in the directory in 'input' in form as 'input/PRJ_NAME/SAMPLE_NAME/align.out.sorted.bam'
 
