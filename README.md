@@ -18,6 +18,13 @@ cd bin/
 bash Wrapper.sh PRJ_NAME
 
 ## 4. field of output files (use files in 'output/PRJTEST0001/SAMPTEST01/' as example)
-BPcalled： raw output of breakpoint identification procedure. \
-fields: read_id, is_forward, is_reverse, is_supplementary_alignment, mapping_start, CIGAR, CIGAR_summary, breakpoint_position, breakpoint_position_of_mate, context_of_breakpoint
+BPcalled：raw output of breakpoint identification procedure. \
+(read_id, is_forward, is_reverse, is_supplementary_alignment, mapping_start, CIGAR, CIGAR_summary, breakpoint_position, breakpoint_position_of_mate, context_of_breakpoint) \
+\
+SARS2.c.sg: canonical sgRNA called, final outputs \
+(project_id, sample_id, strand, breakpoint1, breakpoint2, context_of_breakpoint, count) \
+\
+SARS2.nc.sg: non-canonical sgRNA called, final outputs \
+(project_id, sample_id, strand, breakpoint1, breakpoint2, context_of_breakpoint, count) \
+
  
